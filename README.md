@@ -1,4 +1,10 @@
-# Production-Ready-Boilerplates
-Collections of Production Ready Frontend and Backend Boilerplates 
+<h1 align="center">
+  <br>
+  <a><img src="assets/logo.gif" alt="spring boot"></a>
+  <br>
+  Production-Ready-Boilerplates
+  <br>
+</h1>
 
-![logo](assets/logo.gif)
+<h4 align="center">Collections of Production Ready Frontend and Backend Boilerplates</h4>
+
