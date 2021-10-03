@@ -1,8 +1,7 @@
-const app = require('./src/app.js');
-const config = require('./src/config/envConfig')
+const app = require('./src/app');
+const config = require('./src/config/envConfig');
+const logger = require('./src/config/logger');
 
-
-let server = app.listen(config.port, () => {
-    console.log(`Listening to port ${config.port}`);
-  });
-
+app.listen(config.port, () => {
+  logger.info(`Listening to port ${config.port}`);
+});
