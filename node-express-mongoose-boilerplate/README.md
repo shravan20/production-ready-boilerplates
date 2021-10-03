@@ -1,6 +1,6 @@
 <h2 align="center"> Monolithic Node.js [Express.js] Mongoose Boilerplate</h2> 
 
-<h3>Boilerplate contains</h3>:
+<h3>Boilerplate contains</h3>
 
 - [ ] Integration with NoSQL MongoDB
 - [ ] Authentication and Authorization
