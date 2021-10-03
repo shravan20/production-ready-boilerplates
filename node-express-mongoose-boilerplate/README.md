@@ -6,14 +6,14 @@
 
 <h2> Table of Contents </h2>
 
-- [Boilerplate contains](#boilerplate-contains)
+- [Features](#features)
 - [Setup/Quick Start](#)
 - [Project Structure](#)
 
 
 
 
-<h3>Boilerplate contains</h3>
+<h3>Features</h3>
 
 - [ ] **Integration with NoSQL MongoDB**
 - [ ] **Authentication and Authorization**
