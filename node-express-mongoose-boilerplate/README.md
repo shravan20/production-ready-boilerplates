@@ -3,7 +3,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
 
-## Table of Contents
+<h2> Table of Contents </h2>
 
 - [Boilerplate contains](#boilerplate-contains)
 - [Setup](#)
