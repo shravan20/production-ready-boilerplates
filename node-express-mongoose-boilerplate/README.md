@@ -23,7 +23,7 @@
     - [ ] **Application Logging [morgan]**
     - [x] **Logging [winston]**
 - [x] **Environment Variable Configuration Setup**
-- [ ] **Code Quality [sonarQube]**
+- [ ] **Code Quality [SonarQube]**
 - [ ] **Error Handling**
 - [ ] **Request Data Validation**
 - [ ] **Request Data Sanitizing**
