@@ -2,25 +2,25 @@
 
 **Boilerplate contains**:
 
-[] Integration with NoSQL MongoDB 
-[] Authentication and Authorization
+[ ] Integration with NoSQL MongoDB
+[ ] Authentication and Authorization
 [x] API Documentation [SwaggerUI]
 [x] Process Management [PM2]
 [x] Dependency Management [NPM]
-[] Logging
-    [] Application Logging [morgan]
+[ ] Logging
+    [ ] Application Logging [morgan]
     [x] Logging [winston]
 [x] Environment Variable Configuration Setup
-[] Code Quality [sonarQube]
-[] Error Handling
-[] Request Data Validation
-[] Request Data Sanitizing
-[] Containerization
-    [] Dockerfile
-    [] Docker-Compose
+[ ] Code Quality [sonarQube]
+[ ] Error Handling
+[ ] Request Data Validation
+[ ] Request Data Sanitizing
+[ ] Containerization
+    [ ] Dockerfile
+    [ ] Docker-Compose
 [x] Git Hooks
     [x] Husky
-[] Security
+[ ] Security
 [x] Linting
     [x] Prettier
     [x] ESLint
