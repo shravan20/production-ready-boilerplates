@@ -14,7 +14,7 @@
 <br>
 <br>
 
-<h2 align="center"> Boilerplates [Sort by Lexicographical Order of Technology] </h2>
+<h5 align="center"> Boilerplates [Sort by Lexicographical Order of Technology] </h5>
 
 - <image src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 
