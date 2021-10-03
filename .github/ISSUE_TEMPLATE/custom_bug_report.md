@@ -19,11 +19,11 @@ assignees: ''
 
 For more information, see the `CONTRIBUTING` guide.
 
-### Description
+**Description**
 
 [Description of the bug or feature]
 
-### Steps to Reproduce
+**Steps to Reproduce**
 
 1. [First Step]
 2. [Second Step]
@@ -33,7 +33,10 @@ For more information, see the `CONTRIBUTING` guide.
 
 **Actual behavior:** [What actually happened]
 
-### Project
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Project**
 
 When we have multiple projects, pass the project name with url
 
