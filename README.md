@@ -20,4 +20,4 @@
 
 | Title  | Description | Created By |
 |:-:|:-:|:-:|
-| node-express-mongoose-boilerplate  | Boilerplate for express.js with mongoose ODM  |  [shravan20](https://github.com/shravan20)  |
+| [node-express-mongoose-boilerplate](./node-express-mongoose-boilerplate)  | Boilerplate for express.js with mongoose ODM  |  [shravan20](https://github.com/shravan20)  |
