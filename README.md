@@ -16,7 +16,7 @@
 
 <h5 align="center"> Boilerplates [Sort by Lexicographical Order of Technology] </h5>
 
-- <image src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+<image src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 
 | Title  | Description | Created By |
 |:-:|:-:|:-:|
