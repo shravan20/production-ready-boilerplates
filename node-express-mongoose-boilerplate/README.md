@@ -1,6 +1,7 @@
 <h3 align="center"> Monolithic Node.js [Express.js] Mongoose Boilerplate</h3> 
 
 **Boilerplate contains**:
+
 [] Integration with NoSQL MongoDB 
 [] Authentication and Authorization
 [x] API Documentation [SwaggerUI]
