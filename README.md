@@ -10,7 +10,6 @@
 <p align="center">
 </h1>
 
-
 <h4 align="center">Collections of Production Ready Frontend and Backend Boilerplates</h4>
 
 
