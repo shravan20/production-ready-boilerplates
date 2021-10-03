@@ -6,7 +6,7 @@
 <h2> Table of Contents </h2>
 
 - [Boilerplate contains](#boilerplate-contains)
-- [Setup](#)
+- [Setup/Quick Start](#)
 - [Project Structure](#)
 
 
