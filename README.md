@@ -13,7 +13,7 @@
 <h4 align="center">Collections of Production Ready Frontend and Backend Boilerplates</h4>
 
 
-### Boilerplates [Sort by Lexicographical Order of Technology]
+<h2 align="center"> Boilerplates [Sort by Lexicographical Order of Technology] </h2>
 
 ![alt node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 
