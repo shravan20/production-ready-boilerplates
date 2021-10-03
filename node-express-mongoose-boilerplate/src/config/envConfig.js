@@ -8,6 +8,7 @@ const envVarsSchema = Joi.object()
   .keys({
     PORT: Joi.number().default(3000),
     NODE_ENV: Joi.string().valid('production', 'development', 'test').required(),
+    MONGODB_URL: Joi.string().required().description('Mongo DB url'),
   })
   .unknown();
 
@@ -20,4 +21,12 @@ if (error) {
 module.exports = {
   port: envVars.PORT,
   env: envVars.NODE_ENV,
+  mongoose: {
+    url: envVars.MONGODB_URL + (envVars.NODE_ENV === 'test' ? '-test' : ''),
+    options: {
+      useCreateIndex: true,
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    },
+  }
 };
