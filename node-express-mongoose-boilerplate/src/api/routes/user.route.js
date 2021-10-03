@@ -9,7 +9,7 @@ const router = require('express').Router();
 
 /**
  * @swagger
- * /:
+ * /user/health:
  *   get:
  *     summary: Check the route health
  *     description: Endpoint user to check the route health.
@@ -22,14 +22,12 @@ const router = require('express').Router();
  *       "200":
  *         description: Created
  *         content:
- *           application/json
- *       "400":
- *         $ref: '#/components/responses/DuplicateEmail'
- *       "401":
- *         $ref: '#/components/responses/Unauthorized'
- *       "403":
- *         $ref: '#/components/responses/Forbidden'
- *
+ *           application/json:
+ *             schema:
+ *               type: Object
+ *               example:
+ *                 health: up 
  */
+router.get('/health', (request, response, next)=>response.json({"health":"up"}));
 
-router.get('/', (request, response, next)=>response.json({"health":"up"}));
+module.exports = router;

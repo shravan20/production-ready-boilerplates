@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const userRoute = require('./user.route');
 const docsRoute = require('./docs.route');
+const config = require('../../config/envConfig');
 
 const defaultRoutes = [
     {
