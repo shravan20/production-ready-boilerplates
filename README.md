@@ -13,3 +13,10 @@
 <h4 align="center">Collections of Production Ready Frontend and Backend Boilerplates</h4>
 
 
+### Boilerplates [Sort by Lexicographical Order of Technology]
+
+![alt node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+| Title  | Description | Created By |
+|:-:|:-:|:-:|
+| node-express-mongoose-boilerplate  | Boilerplate for express.js with mongoose ODM  |  [shravan20](https://github.com/shravan20)  |
