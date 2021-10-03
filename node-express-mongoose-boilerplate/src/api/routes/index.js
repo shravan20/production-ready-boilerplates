@@ -4,28 +4,28 @@ const docsRoute = require('./docs.route');
 const config = require('../../config/envConfig');
 
 const defaultRoutes = [
-    {
-        path: '/user',
-        route: userRoute
-    }
+  {
+    path: '/user',
+    route: userRoute,
+  },
 ];
 
-// routes available only in development/stage 
+// routes available only in development/stage
 const devRoutes = [
-    {
-        path: '/docs',
-        route: docsRoute,
-    }
-]
+  {
+    path: '/docs',
+    route: docsRoute,
+  },
+];
 
 defaultRoutes.forEach((route) => {
-    router.use(route.path, route.route);
+  router.use(route.path, route.route);
 });
 
 if (config.env === 'development') {
-    devRoutes.forEach((route) => {
-      router.use(route.path, route.route);
-    });
+  devRoutes.forEach((route) => {
+    router.use(route.path, route.route);
+  });
 }
 
 module.exports = router;

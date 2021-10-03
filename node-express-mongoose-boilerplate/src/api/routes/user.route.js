@@ -26,8 +26,8 @@ const router = require('express').Router();
  *             schema:
  *               type: Object
  *               example:
- *                 health: up 
+ *                 health: up
  */
-router.get('/health', (request, response, next)=>response.json({"health":"up"}));
+router.get('/health', (request, response) => response.json({ health: 'up' }));
 
 module.exports = router;
