@@ -1,0 +1,83 @@
+{
+  "name": "express-mongoose-boilerplate",
+  "version": "1.0.0",
+  "description": "Node.js Express-Mongoose Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start ecosystem.config.json --no-daemon",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "prod": "cross-env NODE_ENV=production nodemon index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "boilerplate",
+    "generator",
+    "express",
+    "rest",
+    "api",
+    "mongodb",
+    "mongoose",
+    "es6",
+    "es7",
+    "es8",
+    "es9",
+    "jest",
+    "travis",
+    "docker",
+    "passport",
+    "joi",
+    "eslint",
+    "prettier"
+  ],
+  "author": "shravan20 <shravan@ohmyscript.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.4.0",
+    "http-status": "^1.5.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.8",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "pm2": "^5.1.2",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "validator": "^13.6.0",
+    "winston": "^3.3.3",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-security": "^1.4.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
