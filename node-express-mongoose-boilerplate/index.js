@@ -1,11 +1,7 @@
-import express from 'express';
+const app = require('./src/app.js');
+const config = require('./src/config/config')
 
-const app = express();
+let server = app.listen(config.port, () => {
+    console.log(`Listening to port ${config.port}`);
+  });
 
-// parse json request body
-app.use(express.json());
-
-// parse urlencoded request body
-app.use(express.urlencoded({ extended: true }));
-
-module.exports = app;
