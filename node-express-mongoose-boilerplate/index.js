@@ -1,8 +1,4 @@
 import express from 'express';
-import helmet from 'helmet';
-import cors from 'cors';
-import passport from 'passport';
-import httpStatus from 'http-status';
 
 const app = express();
 
