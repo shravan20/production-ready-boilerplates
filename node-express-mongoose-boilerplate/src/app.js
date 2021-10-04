@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const routes = require('./api/routes/index');
 const dbConfig = require('./config/databaseConfig');
-const app = express();
 
+const app = express();
 
 // parse json request body
 app.use(express.json());
